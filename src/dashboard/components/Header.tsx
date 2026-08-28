@@ -137,17 +137,6 @@ export const Header: React.FC<HeaderProps> = ({
             </>
           )}
 
-          {/* Wave Studio / Background Theme Button */}
-          <button
-            onClick={onOpenWaveStudio}
-            style={{ backgroundColor: 'transparent', border: '1.5px solid #000000', color: '#000000' }}
-            className="liquid-hover px-3.5 py-2 rounded-2xl text-black text-xs font-mono font-bold flex items-center space-x-1.5 shadow-sm cursor-pointer"
-            title="Customize Background Waves, Grain & Studio"
-          >
-            <Sliders className="w-3.5 h-3.5 text-black stroke-[2.5]" />
-            <span className="hidden sm:inline">Studio</span>
-          </button>
-
           {/* About Creator manuroszonero Button */}
           <button
             onClick={onOpenAbout}
