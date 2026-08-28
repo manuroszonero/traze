@@ -40,15 +40,15 @@ export interface TypographySettings {
 }
 
 export const DEFAULT_WAVE_SETTINGS: WaveSettings = {
-  canvasBg: '#fbcfff',
-  horizonColor: '#caa5d4',
-  waveColor: '#f8b0ff',
-  crestColor: '#ffffff',
-  speed: 0.3,
-  amplitude: 2.2,
+  canvasBg: '#120f17',
+  horizonColor: '#5227FF',
+  waveColor: '#FF9FFC',
+  crestColor: '#FFFFFF',
+  speed: 0.4,
+  amplitude: 2.5,
   waveScale: 0.6,
   waveRatio: 0.9,
-  swell: 30,
+  swell: 35,
   turbulence: 20,
   tilt: 1.11,
   zoom: 1.0,
@@ -56,11 +56,11 @@ export const DEFAULT_WAVE_SETTINGS: WaveSettings = {
   fogDepth: 15,
   detail: 'medium',
   brightness: 1.0,
-  opacity: 0.85,
+  opacity: 1.0,
   grain: true,
   grainIntensity: 0.08,
   mouseInteraction: true,
-  parallaxStrength: 0.3,
+  parallaxStrength: 0.5,
 };
 
 export const DEFAULT_TYPOGRAPHY_SETTINGS: TypographySettings = {
