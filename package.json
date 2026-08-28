@@ -1,0 +1,28 @@
+{
+  "name": "traze",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TRAZE — Instagram Follower Analytics",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.js",
+    "preview": "vite preview",
+    "test": "node scripts/run_tests.js",
+    "generate:samples": "node scripts/generate_sample_zip.js",
+    "generate:icons": "node scripts/create_icons.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.308",
+    "@types/node": "^22.13.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "esbuild": "^0.25.0",
+    "typescript": "~5.7.3",
+    "vite": "^5.4.21"
+  }
+}
