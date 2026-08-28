@@ -130,8 +130,8 @@ async function buildExtension() {
     }
   </style>
 </head>
-<body style="background: #fbcfff; background-color: #fbcfff;" class="text-black antialiased min-h-screen">
-  <div id="root" style="background: #fbcfff;"></div>
+<body style="background: #fac7ff; background-color: #fac7ff;" class="text-black antialiased min-h-screen">
+  <div id="root" style="background: #fac7ff;"></div>
   <script type="module" src="./dashboard.js"></script>
 </body>
 </html>`;
@@ -173,8 +173,8 @@ async function buildExtension() {
     }
   </style>
 </head>
-<body style="background: #fbcfff; background-color: #fbcfff;" class="text-black antialiased min-h-screen">
-  <div id="root" style="background: #fbcfff;"></div>
+<body style="background: #fac7ff; background-color: #fac7ff;" class="text-black antialiased min-h-screen">
+  <div id="root" style="background: #fac7ff;"></div>
   <script type="module" src="./src/dashboard/dashboard.js"></script>
 </body>
 </html>`;

@@ -6,7 +6,7 @@
 
 :root {
   color-scheme: light;
-  --cyber-bg: #fbcfff;
+  --cyber-bg: #fac7ff;
   --cyber-surface: rgba(0, 0, 0, 0.04);
   --cyber-card: rgba(0, 0, 0, 0.02);
   --cyber-card-hover: rgba(0, 0, 0, 0.06);
@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: #fbcfff;
+  background-color: #fac7ff;
   color: var(--app-text-primary);
   font-family: var(--app-font-family), 'Plus Jakarta Sans', sans-serif !important;
   font-weight: var(--app-body-weight);
