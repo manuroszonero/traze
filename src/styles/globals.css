@@ -6,13 +6,13 @@
 
 :root {
   color-scheme: light;
-  --cyber-bg: #120f17;
-  --cyber-surface: rgba(255, 255, 255, 0.08);
-  --cyber-card: rgba(255, 255, 255, 0.06);
-  --cyber-card-hover: rgba(255, 255, 255, 0.14);
-  --cyber-border: rgba(255, 255, 255, 0.2);
-  --cyber-border-bright: rgba(255, 255, 255, 0.4);
-  --cyber-muted: #94a3b8;
+  --cyber-bg: #fbcfff;
+  --cyber-surface: rgba(0, 0, 0, 0.04);
+  --cyber-card: rgba(0, 0, 0, 0.02);
+  --cyber-card-hover: rgba(0, 0, 0, 0.06);
+  --cyber-border: rgba(0, 0, 0, 0.2);
+  --cyber-border-bright: rgba(0, 0, 0, 0.4);
+  --cyber-muted: #52525b;
   --electric-purple: #a855f7;
   --electric-purple-glow: #c084fc;
   --electric-cyan: #22d3ee;
@@ -23,7 +23,7 @@
   --app-font-family: 'Plus Jakarta Sans', sans-serif;
   --app-text-primary: #000000;
   --app-text-secondary: rgba(0, 0, 0, 0.75);
-  --app-accent-color: #c084fc;
+  --app-accent-color: #000000;
   --app-heading-weight: 800;
   --app-body-weight: 500;
   --app-letter-spacing: 0px;
@@ -37,7 +37,7 @@
 }
 
 body {
-  background-color: #120f17;
+  background-color: #fbcfff;
   color: var(--app-text-primary);
   font-family: var(--app-font-family), 'Plus Jakarta Sans', sans-serif !important;
   font-weight: var(--app-body-weight);
